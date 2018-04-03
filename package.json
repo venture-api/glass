@@ -1,0 +1,30 @@
+{
+  "name": "glass",
+  "version": "0.1.0",
+  "description": "Venture API query processing service",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/venture-api/glass.git"
+  },
+  "keywords": [
+    "venture-api",
+    "cqrs"
+  ],
+  "author": "Maksim Korinets",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/venture-api/glass/issues"
+  },
+  "homepage": "https://github.com/venture-api/glass#readme",
+  "dependencies": {
+    "kojo": "^3.2.2",
+    "mongodb": "^3.0.5",
+    "tasu": "^4.0.2",
+    "yt-config": "^2.0.2"
+  }
+}
